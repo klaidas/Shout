@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5C6BC0</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#9FA8DA</color>
+
+    <color name="colorSecondary">#212121</color>
+    <color name="hintColor">#a9a9a9</color>
+    <color name="editTextColor">#494949</color>
+    <color name="secondListItem">#737373</color>
+
+    <color name="backColor">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="offWhite">#FAFAFA</color>
+
+
+
+</resources>

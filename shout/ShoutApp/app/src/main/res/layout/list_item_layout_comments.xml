@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="26dp"
+    android:paddingRight="26dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:elevation="1dp"
+    android:background="@drawable/bgedittext">
+
+    <!-- Two-Line List Items -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commentListUser"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commentListComment"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <!-- Hidden TextView -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/commentListCID"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/commentListPID"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/commentListUID"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

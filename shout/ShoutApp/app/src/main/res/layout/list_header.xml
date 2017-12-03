@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:elevation="2dp"
+        android:background="@drawable/bgedittext">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textSize="12sp"
+            android:id="@+id/postActivityUser"
+            android:paddingStart="26dp"
+            android:paddingEnd="26dp"
+            android:paddingTop="8dp"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:id="@+id/postActivityTitle"
+            android:paddingStart="26dp"
+            android:paddingEnd="26dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:id="@+id/postActivityBody"
+            android:paddingStart="26dp"
+            android:paddingEnd="26dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-light"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginEnd="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="2dp"
+        android:layout_height="1dp"
+        android:background="#1F000000"
+        />
+
+</LinearLayout>

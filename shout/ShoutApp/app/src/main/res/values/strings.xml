@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Shout</string>
+    <string name="add_button">Add</string>
+    <string name="user_button">User</string>
+    <string name="submit_button">Submit</string>
+    <string name="post_title">Your Post Title</string>
+    <string name="post_body">Your Post Body/ Text (Optional)</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_button">Log In</string>
+    <string name="dont_have_account">Don\'t Have An Account? Register Here.</string>
+    <string name="register_button">Register</string>
+    <string name="email">Email Address</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="logout">Log Out</string>
+
+    <string name="posts">NO POSTS :(</string>
+    <string name="comments">NO COMMENTS :(</string>
+    <string name="settings">Settings</string>
+    <string name="defzero">0</string>
+
+    <string name="comment">Add a Comment..</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
