@@ -3,7 +3,7 @@ A Social-Discussion App Project
 
 ![](https://github.com/ku00015/Shout/blob/master/shout.gif)
 
-<a name="hr"/>
+# 
 
 # To Get this Running for you:
 * Put the MySQL database and PHP scripts on a server (or LocalHost)
