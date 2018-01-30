@@ -32,8 +32,8 @@ import java.util.Map;
 public class MyComments extends Fragment {
 
     static final String session = "LoginSession";
-    private static final String GET_USER_COMMENTS_REQUEST = "http://192.168.0.11/androidlogreg/getusercomments.php";
-    private static final String DELETE_USER_COMMENTS_REQUEST = "http://192.168.0.11/androidlogreg/deleteusercomment.php";
+    private static final String GET_USER_COMMENTS_REQUEST = "http://localhost/getusercomments.php";
+    private static final String DELETE_USER_COMMENTS_REQUEST = "http://localhost/deleteusercomment.php";
     ListView lv;
     String uid;
 
