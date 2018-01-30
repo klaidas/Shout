@@ -33,8 +33,8 @@ import java.util.Map;
 public class MyPosts extends Fragment {
 
     static final String session = "LoginSession";
-    private static final String GET_USER_POSTS_REQUEST = "http://192.168.0.11/androidlogreg/getuserposts.php";
-    private static final String DELETE_USER_POSTS_REQUEST = "http://192.168.0.11/androidlogreg/deleteuserpost.php";
+    private static final String GET_USER_POSTS_REQUEST = "http://localhost/getuserposts.php";
+    private static final String DELETE_USER_POSTS_REQUEST = "http://localhost/deleteuserpost.php";
 
     ListView myPostsList;
     String uid;
