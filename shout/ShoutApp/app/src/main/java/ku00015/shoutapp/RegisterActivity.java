@@ -29,7 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
     EditText email;
     EditText pass;
     EditText passconf;
-    private static final String REGISTER_REQUEST = "http://192.168.0.11/androidlogreg/register.php";
+    private static final String REGISTER_REQUEST = "http://localhost/register.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
