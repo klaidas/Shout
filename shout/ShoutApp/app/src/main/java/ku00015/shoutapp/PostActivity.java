@@ -39,8 +39,8 @@ public class PostActivity extends AppCompatActivity {
     String postTitle;
     String postBody;
     static final String session = "LoginSession";
-    private static final String COMMENT_REQUEST = "http://192.168.0.11/androidlogreg/comment.php";
-    private static final String GET_COMMENTS_REQUEST = "http://192.168.0.11/androidlogreg/getcomments.php";
+    private static final String COMMENT_REQUEST = "http://localhost/comment.php";
+    private static final String GET_COMMENTS_REQUEST = "http://localhost/getcomments.php";
     ListView commentsList;
     View header;
 
