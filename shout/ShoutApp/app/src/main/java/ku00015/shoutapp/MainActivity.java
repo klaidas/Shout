@@ -35,8 +35,8 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String GET_REQUEST = "http://192.168.0.11/androidlogreg/get.php";
-    private static final String GET_LIKED_REQUEST = "http://192.168.0.11/androidlogreg/liked.php";
+    private static final String GET_REQUEST = "http://localhost/get.php";
+    private static final String GET_LIKED_REQUEST = "http://localhost/liked.php";
     static final String session = "LoginSession";
     ListView lv;
     CoordinatorLayout relativeLayout;
