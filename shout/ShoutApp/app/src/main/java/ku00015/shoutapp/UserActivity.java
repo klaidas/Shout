@@ -28,7 +28,7 @@ import java.util.Map;
 
 public class UserActivity extends AppCompatActivity {
 
-    private static final String LOGIN_REQUEST = "http://192.168.0.11/androidlogreg/login.php";
+    private static final String LOGIN_REQUEST = "http://localhost/login.php";
     static final String session = "LoginSession";
 
     @Override
