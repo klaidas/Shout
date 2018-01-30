@@ -33,7 +33,7 @@ import java.util.Map;
 
 public class AddActivity extends AppCompatActivity {
 
-    private static final String ADD_REQUEST = "http://192.168.0.11/androidlogreg/add.php";
+    private static final String ADD_REQUEST = "http://localhost/add.php";
     static final String session = "LoginSession";
 
     @Override
